@@ -1,7 +1,7 @@
 import { Document } from 'mongoose';
 
 export interface Jogador extends Document {
-  //  readonly _id: String;   //nao envia
+  //readonly _id: String;   //nao envia pelo Post
     readonly email: String;
     readonly celular: String;
     nome: String;
